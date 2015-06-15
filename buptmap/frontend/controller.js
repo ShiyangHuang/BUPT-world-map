@@ -4,8 +4,8 @@
       return {
         controller: function ($scope, $http) {
           var map;
-          var serverURL = "http://localhost:3000/api/products";
-          var postURL = "http://localhost:3000/api/products";
+          var serverURL = "http://54.191.226.150:3001/api/products";
+          var postURL = "http://54.191.226.150:3001/api/products";
           //注册地图
           this.registerMap = function (myMap) {
             var center = myMap.getCenter(),
