@@ -1,0 +1,17 @@
+[
+	{"userid":1,
+	 "username":"Shiyang Huang",
+	 "email":"huangshiyang@outlook.com",
+	 "userprofile":"#",
+	 "lat":40.6411418,
+	 "lng":-73.9811636
+	},
+
+	{"userid":2,
+	 "email":"250295269@qq.com",
+	 "username":"Chao Lu",
+	 "userprofile":"#",
+	 "lat":37.3293475,
+	 "lng":-121.8301416
+	}
+]
