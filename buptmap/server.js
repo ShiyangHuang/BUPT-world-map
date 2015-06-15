@@ -36,7 +36,7 @@ var send404Response = function (response) {
 var onRequest = function(request, response) {
     if (request.method == 'GET' && request.url == '/') {
         response.writeHead(200, {"Content-Type":"text/html"});
-        fs.createReadStream("./index.html").pipe(response);
+        fs.createReadStream("./frontend/map.html").pipe(response);
 
     } else {
         send404Response(response);
