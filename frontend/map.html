@@ -1,0 +1,50 @@
+<div>
+  <meta charset='utf-8'> 
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.1.0/pure-min.css">
+  <script src="http://maps.google.com/maps/api/js?key=AIzaSyDNE0zN_D3mctckN5tFVxN1Q9Dm1jqlhhI&sensor=true"></script>
+  <script src="http://ditu.google.cn/maps/api/js?key=AIzaSyDNE0zN_D3mctckN5tFVxN1Q9Dm1jqlhhI&sensor=true"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script src="frontend_modules/angular/angular.min.js"></script>
+  <script type="text/javascript" src="controller.js"></script>
+  <script type="text/javascript" src="http://fgnass.github.io/spin.js/spin.min.js"></script>
+  <script type="text/javascript" src="angular-spinner.min.js"></script>
+  <script type="text/javascript" src="angular-loading-spinner.js"></script>
+  <script src="frontend_modules/angular-gravatar/build/angular-gravatar.js"></script>
+  <title>BUPT WORLD MAP</title>
+  <link rel="stylesheet" href="style.css"></link>
+  <div ng-app="mapComponentsApp">
+    <span us-spinner="{radius:30, width:8, length: 16}"></span>
+    <div class="google-map" say-where="" latitude="39.65411075698885" longitude="-93.26246782812503"></div>
+    <script type="text/html" id="whereControl">
+      <form class="pure-u-1-1 pure-form pure-form-stacked map-control" name="loginForm" ng-init="getMarkers()">
+        <fieldset>
+          <table>
+          Totle BYRs here: {{countItems}}
+          <tr>
+          <!---td>
+            <button class="button-success pure-button" ng-show="!hasFrom()" ng-click="getMarkers()">Show</button>
+          </td--->
+          <td>
+            <button class="button-secondary pure-button" ng-show="hasFrom()" ng-click="closeForm();">Back</button>
+          </td>
+          <td>
+            <button class="button-error pure-button" ng-show="hasFrom()" ng-click="deleteMe();">Delete</button>
+          </td>
+          <td>
+            <button class="button-success pure-button" ng-show="!hasFrom()" ng-click="showForm()">Add Me</button>
+          </td>
+          <td>
+            <button class="button-warning pure-button" ng-show="hasFrom()" ng-click="submit();showForm()">submit</button>
+          </td>
+          </tr>
+          <div ng-show="hasFrom()">
+            <input id="username" class="pure-input-1" type="text" ng-model="userinfo.username" placeholder="User Name" required>
+            <input id="email" class="pure-input-1" type="text" ng-model="userinfo.email" placeholder="User Email" required>
+          </div>
+          </table>
+        </fieldset>
+      </form>
+    </script>
+  </div>
+</div>

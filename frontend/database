@@ -1,0 +1,90 @@
+[
+    {
+        "username": "Cindy",
+        "email": "cindy.shuang.guo@gmail.com",
+        "lat": 37.3442948,
+        "lng": -121.95961720000001,
+        "_id": "557ee3e7fea70f746a144997",
+        "__v": 0
+    },
+    {
+        "username": "Ruoyu",
+        "email": "chenruoyu111@gmail.com",
+        "lat": 42.338515125056205,
+        "lng": -71.0880483590391,
+        "_id": "557ef339fea70f746a14499d",
+        "__v": 0
+    },
+    {
+        "username": "ee08b397",
+        "email": "ee08b397@gmail.com",
+        "lat": 40.7410986,
+        "lng": -73.9888682,
+        "_id": "557f0225fea70f746a14499f",
+        "__v": 0
+    },
+    {
+        "username": "Luchao",
+        "email": "Luchaocn@hotmail.com",
+        "lat": 37.4123713,
+        "lng": -121.8639494,
+        "_id": "557f26adfea70f746a1449a0",
+        "__v": 0
+    },
+    {
+        "username": "Jason Liu",
+        "email": "8815000522@sina.com",
+        "lat": 39.06074340000001,
+        "lng": -77.4630688,
+        "_id": "557f26b6fea70f746a1449a1",
+        "__v": 0
+    },
+    {
+        "username": "Shu Lin",
+        "email": "linshu@gmail.com",
+        "lat": 60.11813564075062,
+        "lng": -149.4391204152337,
+        "_id": "557f3f37fea70f746a1449a6",
+        "__v": 0
+    },
+    {
+        "username": "Andy",
+        "email": "zhengjunli36@gmail.com",
+        "lat": 39.975319834694034,
+        "lng": -82.9969505665396,
+        "_id": "557f43c8fea70f746a1449ab",
+        "__v": 0
+    },
+    {
+        "username": "Huang Shiyang",
+        "email": "huangshiyang@outlook.com",
+        "lat": 40.6404423,
+        "lng": -73.9814777,
+        "_id": "557f5177fea70f746a1449ac",
+        "__v": 0
+    },
+    {
+        "username": "Jin",
+        "email": "shd20020301@gmail.com",
+        "lat": 37.3853092,
+        "lng": -121.889859,
+        "_id": "557f9512fea70f746a1449ad",
+        "__v": 0
+    },
+    {
+        "username": "yzhan146",
+        "email": "yzhan146@binghamton.edu",
+        "lat": 42.092782199999995,
+        "lng": -76.0054721,
+        "_id": "557fa774fea70f746a1449b1",
+        "__v": 0
+    },
+    {
+        "username": "mermer",
+        "email": "zlx920724@gmail.com",
+        "lat": 37.41826235875027,
+        "lng": -121.92840319676992,
+        "_id": "557faf3458fb2dbe735f95e3",
+        "__v": 0
+    }
+]
